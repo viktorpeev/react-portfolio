@@ -57,9 +57,10 @@
         padding: 10px 18px;
         border: 1px solid #ffd700;
         margin-top: 25px;
-        float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
+        bottom: 0;
+        position: absolute;
 
         &:hover{
             background-color: #ffd700;

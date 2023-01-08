@@ -14,13 +14,13 @@ export const Sidebar = () => {
                 <img className='sub-logo' src={LogoSubtitle} />
             </Link>
             <nav>
-                <NavLink exact='true' activeClassName='active' to='/'>
+                <NavLink exact='true' activeclassname='active' to='/'>
                     <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
                 </NavLink>
-                <NavLink exact='true' activeClassName='active' to='/about'>
+                <NavLink exact='true' activeclassname='active' to='/about'>
                     <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
                 </NavLink>
-                <NavLink activeClassName='active' to='/contact'>
+                <NavLink activeclassname='active' to='/contact'>
                     <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
                 </NavLink>
             </nav>
