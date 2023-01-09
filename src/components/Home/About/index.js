@@ -1,7 +1,7 @@
 import './index.scss';
 import { AnimatedLetters } from '../../AnimatedLetters';
 import React from 'react';
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faCss3, faGitAlt, faGithub, faHtml5, faJsSquare, faPhp, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Loader} from 'react-loaders'
 export const About = () => {
@@ -33,16 +33,11 @@ export const About = () => {
                     I'm quiet confident, naturally curious, and perpetually working on
                     improving my chops one design problem at a time.
                 </p>
-                <p>
-                    If I need to define myself in one sentence that would be a family
-                    person, father of a beautiful daughter, a sports fanatic,
-                    photography enthusiast, and tech-obsessed!!!
-                </p>
             </div>
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon color='#DD0031' icon={faAngular} />
+                        <FontAwesomeIcon color='#DD0031' icon={faPhp} />
                     </div>
                     <div className='face2'>
                         <FontAwesomeIcon color='#F06529' icon={faHtml5} />
@@ -57,7 +52,7 @@ export const About = () => {
                         <FontAwesomeIcon color='#EFD81D' icon={faJsSquare} />
                     </div>
                     <div className='face6'>
-                        <FontAwesomeIcon color='#EC4D28' icon={faGitAlt} />
+                        <FontAwesomeIcon color='#EC4D28' icon={faGithub} />
                     </div>
                 </div>
             </div>
