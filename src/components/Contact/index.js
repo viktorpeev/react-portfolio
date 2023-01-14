@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef ,useEffect,useState} from 'react';
 import Loader from 'react-loaders';
 import { AnimatedLetters } from '../AnimatedLetters';
 import './index.scss';
@@ -6,12 +6,12 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
-    const [letterClass, setLetterClass] = React.useState('text-animate');
+    const [letterClass, setLetterClass] = useState('text-animate');
     const form = useRef();
 
-    React.useEffect(() => {
+    useEffect(() => {
         setTimeout(() => {
-            setLetterClass('text-animate-hover')
+            setLetterClass('text-animate-hover');
         }, 4000)
     }, [])
 

@@ -1,7 +1,7 @@
 import './index.scss';
 import { AnimatedLetters } from '../../AnimatedLetters';
 import React from 'react';
-import { faAngular, faCss3, faGitAlt, faGithub, faHtml5, faJsSquare, faPhp, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faGithub, faHtml5, faJsSquare, faPhp, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Loader} from 'react-loaders'
 export const About = () => {
