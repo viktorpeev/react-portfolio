@@ -1,7 +1,7 @@
 import './index.scss';
 import { AnimatedLetters } from '../../AnimatedLetters';
 import React from 'react';
-import { faCss3, faGithub, faHtml5, faJsSquare, faPhp, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faGithub, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Loader} from 'react-loaders'
 export const About = () => {
@@ -25,19 +25,15 @@ export const About = () => {
                     />
                 </h1>
                 <p>
-                    I'm a very ambitious front-end developer looking for a role in an
+                    I'm a very ambitious Frontend engineer looking for a role in an
                     established IT company with the opportunity to work with the latest
                     technologies on challenging and diverse projects.
-                </p>
-                <p align="LEFT">
-                    I'm quiet confident, naturally curious, and perpetually working on
-                    improving my chops one design problem at a time.
                 </p>
             </div>
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon color='#DD0031' icon={faPhp} />
+                        <FontAwesomeIcon color='#DD0031' icon={faNodeJs} />
                     </div>
                     <div className='face2'>
                         <FontAwesomeIcon color='#F06529' icon={faHtml5} />

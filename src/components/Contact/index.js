@@ -81,7 +81,7 @@ export const Contact = () => {
                     <br />
                     Bulgaria,
                     <br />
-                    <span>viktorpeev@yahoo.com</span>
+                    <span>viktorpeev@proton.me</span>
                 </div>
                 <div className="map-wrap">
                     <MapContainer center={[43.2167, 27.9167]} zoom={13}>

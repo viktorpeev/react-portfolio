@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/Logo-V.png';
 import LogoSubtitle from '../../assets/images/Logo-text.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export const Sidebar = () => {
     return (
@@ -28,20 +28,9 @@ export const Sidebar = () => {
                 <li>
                     <a target='_blank'
                         rel='noreferrer'
-                        href='https://www.linkedin.com/in/viktor-peev-5113061b5/'
+                        href='https://github.com/viktorpeev'
                     >
-                        <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
-                    </a>
-                </li>
-                <li>
-                    <a
-                    target='_blank'
-                    rel='noreferrer'
-                    href='https://www.facebook.com/viktor.peev.75'
-
-                    
-                    >
-                        <FontAwesomeIcon icon={faFacebook} color='#4d4d4e' />
+                        <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
                     </a>
                 </li>
             </ul>
